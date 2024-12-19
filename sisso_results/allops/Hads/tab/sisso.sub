@@ -1,0 +1,19 @@
+#!/bin/bash 
+
+#SBATCH -p debug
+#SBATCH -N 1
+#SBATCH --tasks-per-node=32
+#SBATCH -t 01:00:00
+#SBATCH -J SISSO 
+#SBATCH -o out.%j
+#SBATCH -e err.%j
+#SBATCH --mail-user=hsang@seas.upenn.edu 
+#SBATCH --mail-type=ALL
+#SBATCH -C "[ib1|ib2|ib3|ib4]"
+
+ulimit -s unlimited
+export XDG_RUNTIME_DIR=/run/user/67574 #you might need to change this 
+export QT_QPA_PLATFORM='offscreen'
+module --force unload ase/3.9.1
+
+/home/hsang/anaconda3/envs/sissopp_env/bin/python sisso.py --feature_list_file='/scratch/alevoj1/intriad/ML/datasets/mxenes/tab.txt' --feature_set_file='/scratch/alevoj1/intriad/ML/datasets/mxenes/H_ads_no_outliers.csv' --n=5 --r=1
