@@ -4,7 +4,7 @@ This is the code and some example data that was generated for the report. Here i
 
 **`/code/`**
 
-The code directory includes all Python scripts and Jupyter notebooks that were used to run all calculations and generate figures.
+The code directory includes all Python scripts and Jupyter notebooks that were used to run all calculations and generate figures.\n
 
 
 **`/code/adam_linear_regression.py`**
