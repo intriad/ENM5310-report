@@ -2,7 +2,7 @@
 
 This is the code and some example data that was generated for the report. Here is the file structure breakdown:
 
-/code/
+**`/code/`**
 
 The code directory includes all Python scripts and Jupyter notebooks that were used to run all calculations and generate figures.
 
