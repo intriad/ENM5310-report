@@ -1,0 +1,41 @@
+Time to generate feat space: 0.040586 s
+Projection time: 0.000859976 s
+Time to get best features on rank : 5.91278e-05 s
+Complete final combination/selection from all ranks: 0.000140905 s
+Time for SIS: 0.00335503 s
+Time for l0-norm: 0.016222 s
+Projection time: 0.00231695 s
+Time to get best features on rank : 7.98702e-05 s
+Complete final combination/selection from all ranks: 0.000128984 s
+Time for SIS: 0.00558996 s
+Time for l0-norm: 0.00258803 s
+Projection time: 0.00147581 s
+Time to get best features on rank : 8.67844e-05 s
+Complete final combination/selection from all ranks: 0.000135899 s
+Time for SIS: 0.00478792 s
+Time for l0-norm: 0.018008 s
+Projection time: 0.00140691 s
+Time to get best features on rank : 0.00011301 s
+Complete final combination/selection from all ranks: 0.000135183 s
+Time for SIS: 0.00451422 s
+Time for l0-norm: 0.270407 s
+Projection time: 0.00139618 s
+Time to get best features on rank : 0.000138044 s
+Complete final combination/selection from all ranks: 0.000133038 s
+Time for SIS: 0.00499296 s
+Time for l0-norm: 13.5195 s
+--- 13.932 seconds ---
+coefs:  [[0.05309109117090584, 0.6956782804349287, 0.05130468538282642, 0.5594780979182902, -0.2126362771778918, -0.2065669817328417]]
+RMSE_train:  0.5652841003421193
+RMSE_test:  1.1473465030853185
+RMSE_total:  0.7209381954134797
+MaxAE:  3.8065149710038955
+MAE_train:  0.44645486029999637
+MAE_test:  0.7876345756229215
+MAE_total:  0.5149763094025086
+R^2:  0.4802481183939554
+Use these to unnormalize the data for the plots:
+y_train_avg:  -0.10300203688820127
+y_train_std:  1.5657706396494424
+y_test_avg:  -0.004704089920104126
+y_test_std:  1.522784522493803
